@@ -5,6 +5,8 @@ node_js:
   - "6"
 notifications:
   email: false
+install:
+  - npm install express@3.21.2
 after_success:
   - npm run coveralls
   - npm run codeclimate
