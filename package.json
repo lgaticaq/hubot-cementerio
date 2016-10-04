@@ -1,6 +1,6 @@
 {
   "name": "hubot-cementerio",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Un hubot-script para contabilizar los días sin nuevos despidos",
   "main": "src",
   "scripts": {
