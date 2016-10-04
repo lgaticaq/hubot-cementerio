@@ -6,6 +6,7 @@ node_js:
 notifications:
   email: false
 install:
+  - npm install
   - npm install express@3.21.2
 after_success:
   - npm run coveralls
