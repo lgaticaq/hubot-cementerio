@@ -1,13 +1,14 @@
+---
 language: node_js
 node_js:
-  - "4"
-  - "5"
-  - "6"
+  - "8"
+  - "9"
 notifications:
   email: false
 install:
   - npm install
   - npm install express@3.21.2
 after_success:
-  - npm run coveralls
-  - npm run codeclimate
+  - npm i -g coveralls codeclimate-test-reporter
+  - coveralls < coverage/lcov.info
+  - codeclimate-test-reporter < coverage/lcov.info
