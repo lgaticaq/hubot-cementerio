@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/lgaticaq/hubot-cementerio#readme",
   "dependencies": {
-    "moment": "2.27.0",
+    "moment": "2.29.1",
     "pug": "2.0.4"
   },
   "devDependencies": {
