@@ -34,7 +34,7 @@
     "pug": "2.0.4"
   },
   "devDependencies": {
-    "chai": "4.2.0",
+    "chai": "4.3.4",
     "coffee-script": "1.12.7",
     "eslint": "5.16.0",
     "eslint-config-standard": "11.0.0",
